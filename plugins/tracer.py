@@ -27,7 +27,8 @@ sys.path.pop(0) # To avoid filename conflict
 import time
 import dnf.cli
 import subprocess
-from tracer.resources.lang import _
+
+from dnfpluginsextras import _
 
 
 class Tracer(dnf.Plugin):
